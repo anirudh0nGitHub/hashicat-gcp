@@ -3,7 +3,7 @@ module "network" {
     version = "~> 3.0"
 
     project_id   = var.project
-    network_name = "rudi-vpc"
+    network_name = "rudi-vpc-1"
     routing_mode = "GLOBAL"
 
     subnets = [
